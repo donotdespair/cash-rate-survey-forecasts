@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Forecasts for the RBA Cash Rate Survey by finder.com.au",
+    "section": "",
+    "text": "library(bsvars)\ndata(us_fiscal_lsuw)"
+  }
+]

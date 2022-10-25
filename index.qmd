@@ -1,0 +1,13 @@
+---
+title: "Forecasts for the RBA Cash Rate Survey by finder.com.au"
+author: 
+  - name: "Tomasz Woźniak"
+    affiliations:
+      - University of Melbourne
+---
+
+
+```{r}
+library(bsvars)
+data(us_fiscal_lsuw)
+```
