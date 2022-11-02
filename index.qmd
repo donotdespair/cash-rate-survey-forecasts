@@ -149,7 +149,7 @@ knitr::kable(cbind(pooled_forecasts), caption = "Cash rate forecasts", digits = 
 
 ## Survey answers
 
-Based on the forecasts above, and the analysis of forecasts from individual models I formed the following survey answers:
+Based on the forecasts above, and the analysis of forecasts from individual models, I formed the following survey answers:
 
 **When you think the RBA will change the cash rate?**
 
@@ -180,7 +180,7 @@ Based on the forecasts above, and the analysis of forecasts from individual mode
 
 ## RBA's decision
 
-On 1 November 2022 the RBA announced an **increase** in the cash rate target by **25** basis points.
+On 1 November 2022, the RBA announced an **increase** in the cash rate target by **25** basis points.
 
 
 ## Forecasting system
@@ -200,4 +200,4 @@ lines(variables[[1]][,1], col = "darkorchid4", lwd = 2)
 legend("topright", legend = colnames(variables[[1]]), col = cols, lwd = c(2, rep(1, 7)), bty = "n")
 ```
 
-These series are used to estimate twelve Vector Error Correction models and to forecast the cash rate one year ahead using an **R** package **vars**. The twelve models differ by the series used for estimation, lag order, and whether a dummy variable was used. Six of these models used all eight variables and six only five including cash rate and yields at maturity from 2 to 10 years. The lag order used were 3, 5, and 7. The dummy variable takes the value of zero for all periods, except for the last six in the sample periods to accommodate for the recent interest rate hikes. The forecasts for the six models with the dummy variable are based on a hypothesised scenario of likely increases and used value one for the dummy at all forecast horizons. The forecasts from the twelve models were pooled using equal weights.
+These series are used to estimate twelve Vector Error Correction models and to forecast the cash rate one year ahead using an **R** package **vars**. The twelve models differ by the series used for estimation, lag order, and whether a dummy variable was used. Six of these models used all eight variables and six only five including cash rate and yields at maturity from 2 to 10 years. The lag order used were 3, 5, and 7. The dummy variable takes the value of zero for all periods, except for the last six in the sample periods, to accommodate the recent interest rate hikes. The forecasts for the six models with the dummy variable are based on a hypothesised scenario of likely upcoming increases and used value one for the dummy at all forecast horizons. The forecasts from the twelve models were pooled using equal weights.
