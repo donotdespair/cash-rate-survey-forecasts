@@ -8,7 +8,7 @@
 
 <meta name="author" content="Tomasz Woźniak">
 
-<title>Forecasts for the RBA Cash Rate Survey by finder.com.au</title>
+<title>RBA Cash Rate Survey Forecasts - October 2022</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,7 +66,7 @@ ul.task-list{list-style: none;}
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Forecasts for the RBA Cash Rate Survey by finder.com.au</span>
+    <span class="navbar-title">RBA Cash Rate Survey Forecasts</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -113,13 +113,10 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#october-2022" id="toc-october-2022" class="nav-link active" data-scroll-target="#october-2022">October 2022</a>
-  <ul class="collapse">
-  <li><a href="#cash-rate-forecasts" id="toc-cash-rate-forecasts" class="nav-link" data-scroll-target="#cash-rate-forecasts">Cash rate forecasts</a></li>
+  <li><a href="#cash-rate-forecasts" id="toc-cash-rate-forecasts" class="nav-link active" data-scroll-target="#cash-rate-forecasts">Cash rate forecasts</a></li>
   <li><a href="#survey-answers" id="toc-survey-answers" class="nav-link" data-scroll-target="#survey-answers">Survey answers</a></li>
   <li><a href="#rbas-decision" id="toc-rbas-decision" class="nav-link" data-scroll-target="#rbas-decision">RBA’s decision</a></li>
   <li><a href="#forecasting-system" id="toc-forecasting-system" class="nav-link" data-scroll-target="#forecasting-system">Forecasting system</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -128,7 +125,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Forecasts for the RBA Cash Rate Survey by finder.com.au</h1>
+<h1 class="title">October 2022</h1>
 </div>
 
 
@@ -155,8 +152,6 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<section id="october-2022" class="level1">
-<h1>October 2022</h1>
 <div class="cell" data-hash="index_cache/html/interest data_080da0ee7f196fd271d755b7d8882c5f">
 
 </div>
@@ -167,7 +162,7 @@ ul.task-list{list-style: none;}
 
 </div>
 <blockquote class="blockquote">
-<p>End of October RBA cash rate survey was the first one I contributed to. I submitted answers only to six questions regarding the future interest rate trajectory. My answers were based on a forecasting system. On this page, I present my forecasts, the answers I submitted on their basis, and a brief description of the forecasting system I used this time.<br>
+<p>End of October RBA cash rate survey by <a href="https://www.finder.com.au/rba-cash-rate">finder.com.au</a> was the first one I contributed to. I submitted answers only to six questions regarding the future interest rate trajectory. My answers were based on a forecasting system. On this page, I present my forecasts, the answers I submitted on their basis, and a brief description of the forecasting system I used this time.<br>
 The survey was published on 28 October 2022: <a href="https://www.finder.com.au/rba-survey-28-october-2022">see the survey</a><br>
 My assessments were mentioned <a href="https://www.news.com.au/finance/economy/interest-rates/bitter-pill-to-swallow-experts-grim-4-interest-rate-warning/news-story/8d95ff725a45b705649c4c2dca88589f">here</a> and <a href="https://www.news.com.au/finance/economy/interest-rates/too-much-rba-tipped-to-confirm-seventh-consecutive-rate-rise-as-mortgage-cliff-looms/news-story/8f9c421356f5a9f8c703ebc61810ebb7">here</a></p>
 </blockquote>
@@ -376,7 +371,6 @@ My assessments were mentioned <a href="https://www.news.com.au/finance/economy/i
 <p>These series are used to estimate twelve Vector Error Correction models and to forecast the cash rate one year ahead using an <strong>R</strong> package <strong>vars</strong>. The twelve models differ by the series used for estimation, lag order, and whether a dummy variable was used. Six of these models used all eight variables and six only five including cash rate and yields at maturity from 2 to 10 years. The lag order used were 3, 5, and 7. The dummy variable takes the value of zero for all periods, except for the last six in the sample periods to accommodate for the recent interest rate hikes. The forecasts for the six models with the dummy variable are based on a hypothesised scenario of likely increases and used value one for the dummy at all forecast horizons. The forecasts from the twelve models were pooled using equal weights.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

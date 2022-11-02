@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Forecasts for the RBA Cash Rate Survey by finder.com.au"
+  title: "RBA Cash Rate Survey Forecasts"
   navbar:
     background: "light"
     left:
