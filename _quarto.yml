@@ -5,13 +5,19 @@ project:
 website:
   title: "Forecasts for the RBA Cash Rate Survey by finder.com.au"
   navbar:
+    background: "light"
     left:
       - href: index.qmd
         text: October 2022
-  sidebar:
-    tools:
+    right:
+      - icon: person
+        url: https://github.com/donotdespair
       - icon: github
         url:  https://github.com/donotdespair/cash-rate-survey-forecasts
+      - icon: linkedin
+        url: https://www.linkedin.com/in/tomasz-wo%C5%BAniak-7b85361b1/
+      - icon: envelope
+        href: mailto:twozniak@unimelb.edu.au
 
 format:
   html:
