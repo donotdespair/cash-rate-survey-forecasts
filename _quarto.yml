@@ -11,7 +11,9 @@ website:
   sidebar:
     tools:
       - icon: github
-        url:  https://github.com/donotdespair/cash-rate-survey-forecasts
+        menu:
+          - text: Source Code
+            url:  https://github.com/donotdespair/cash-rate-survey-forecasts
 
 format:
   html:
