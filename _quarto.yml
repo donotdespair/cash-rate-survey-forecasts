@@ -7,13 +7,14 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: October 2022
+  sidebar:
+    tools:
+      - icon: github
+        url:  https://github.com/donotdespair/cash-rate-survey-forecasts
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
