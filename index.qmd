@@ -118,7 +118,11 @@ cols = c("darkorchid4","mediumorchid1","mediumorchid2","mediumorchid3","hotpink1
 
 > End of October RBA cash rate survey by [finder.com.au](https://www.finder.com.au/rba-cash-rate) was the first one I contributed to. I submitted answers only to six questions regarding the future interest rate trajectory. My answers were based on a forecasting system. On this page, I present my forecasts, the answers I submitted on their basis, and a brief description of the forecasting system I used this time.\
 > The survey was published on 28 October 2022: [see the survey](https://www.finder.com.au/rba-survey-28-october-2022)\
-> My assessments were mentioned [here](https://www.news.com.au/finance/economy/interest-rates/bitter-pill-to-swallow-experts-grim-4-interest-rate-warning/news-story/8d95ff725a45b705649c4c2dca88589f) and [here](https://www.news.com.au/finance/economy/interest-rates/too-much-rba-tipped-to-confirm-seventh-consecutive-rate-rise-as-mortgage-cliff-looms/news-story/8f9c421356f5a9f8c703ebc61810ebb7)
+> My assessments were mentioned [here](https://www.news.com.au/finance/economy/interest-rates/bitter-pill-to-swallow-experts-grim-4-interest-rate-warning/news-story/8d95ff725a45b705649c4c2dca88589f), 
+[here](https://www.news.com.au/finance/economy/interest-rates/too-much-rba-tipped-to-confirm-seventh-consecutive-rate-rise-as-mortgage-cliff-looms/news-story/8f9c421356f5a9f8c703ebc61810ebb7),
+[here](https://www.finder.com.au/rba-survey-1-november-2022),
+[here](https://www.dailymail.co.uk/news/article-11375371/Warning-Australian-property-prices-start-slide-faster-rates-rising.html), and
+[here](https://dynamicbusiness.com/topics/news/there-will-likely-be-another-cash-rate-hike-on-nov-1.html)
 
 ## Cash rate forecasts
 
